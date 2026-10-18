@@ -1,0 +1,12 @@
+# Dense CUDA Q4 host loading
+
+Llama/Qwen2 dense adapters use the existing internal int4-sym-g128/BF16 codec with direct packed pinned decoder owners on explicit CUDA execution. CPU and other storage modes use their declared existing paths; Qwen3 compressed execution remains rejected. No native INT4 GEMM, GGUF, NF4 or optional backend installation is implied.
+
+The direct loader chooses a512MiB arena packing limit. Its actual power-of-two capacity depends on all tensor sizes. Before reading payloads it checks both logical host weights and actual packed decoder capacity plus CPU embedding against host allowance. The largest arena is not a per-process memory guarantee. The CUDA session must reuse these owners and count unique storage bytes; temporary source mappings, encoding arrays, CUDA/native-reference materialization and host allocator caches need independent process/cgroup limits. A BF16 same-dtype contiguous source embedding retains its read-only mapping through tensor ownership; converted FP32 sources may require an anonymous BF16 conversion instead.
+
+For a64layer dense5120/27648 model, the existing128MiB policy can reserve24GiB even though Q4 decoder logical storage is about15.44GiB.512MiB packing yields15.5GiB in31arenas, plus the full source embedding. Higher-precision formats must pass their own budget and do not silently fall back to Q4.
+
+Encoding, full raw/source and stored identities, all codec validity scans, GPU decoding, LoRA/gradient accumulation/AdamW and checkpoint semantics are unchanged. The arena policy is physical storage placement, excluded from quantized base identity and restore binding. CUDA block weights stay frozen and are reloaded for forward and backward recomputation.
+
+CPU regression tests cover real-shape metadata capacity/budget rejection without allocating model payloads, explicit mode/device selection, invalid arena parameters, Llama/Qwen2 raw and archive byte/source/storage identity, mapped/view lifetime and exception cleanup using small CPU-emulated owners. This emulation does not prove physical CUDA pinning; bounded actual-source CUDA evidence is required. Independent actual-size native local gradient and terminal references, an evolving same-gradient AdamW reference, fullstate cold restoration and export comparisons support only their stated short-run scope. No heldout quality, long training/context, whole-model independent BF16 trajectory or training speed improvement is implied.
+

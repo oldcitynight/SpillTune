@@ -1,0 +1,540 @@
+{
+  "format": "rvft.public-current-provenance.v1",
+  "source_project": "AllTheAIs",
+  "ai_assistance": "ChatGPT, Codex and DeepSeek; no provider ownership assignment inferred",
+  "files": [
+    {
+      "file": "launchers/linux/spilltune-launch.c",
+      "current_sha256": "5aa68217598ff11712e703ec1fbe9eb23ec96dec6a6a2c0db2268c178a8f31d7",
+      "origin_kind": "project_release_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/__init__.py",
+      "current_sha256": "e9a1fafdf06799cc47094678f302f11f6aa470a72c9a392441ce0f90b23953ed",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/__init__.py",
+      "current_sha256": "53802de50720630bf62ea440e6161dad1fce27794087fdbed22d8215e9d226bf",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/deepseek.py",
+      "current_sha256": "4370051e7842d49555557a068acbba2c985cedbf0218d4e9a363f651d19581f3",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "deepseek_v3"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/dense.py",
+      "current_sha256": "0eb793ec832d4b6b6f3abe024e730373d613ec132cfe9228891932af0f543aa2",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "llama",
+        "qwen2",
+        "qwen3"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/glm4_moe_lite.py",
+      "current_sha256": "d820b92947d0df9e95f8e60571c7c9ce4bc4c0742ed91f13b9b2c9f6e8cffea4",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "Transformers glm4_moe_lite Apache-2.0"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/gpt_oss/__init__.py",
+      "current_sha256": "361129d7729dde7cc2ad48988e61b58191ee3ba35e5f57c8a16534b341f795c0",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "Transformers gpt_oss / MXFP4 Apache-2.0"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/gpt_oss/adapter.py",
+      "current_sha256": "b9ea04eb0b31e5af27244a99753ed0647aa797464c02c4fa9398ec2a3d784ad9",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "Transformers gpt_oss / MXFP4 Apache-2.0"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/gpt_oss/fixture.py",
+      "current_sha256": "ce1dc355e01e0c6a2b70f2fab33ff409439602392e362339ecd0fe17ea475054",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "Transformers gpt_oss / MXFP4 Apache-2.0"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/gpt_oss/mxfp4.py",
+      "current_sha256": "131674593ddd65cbdfbd03554604524a3081aedd053d4ec574d52fb58746d584",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "Transformers gpt_oss / MXFP4 Apache-2.0"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/gpt_oss/ops.py",
+      "current_sha256": "f202c4ec3e973ab1bed72ca6ce870177c74c544640516e6f7f037c95bf01da71",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "Transformers gpt_oss / MXFP4 Apache-2.0"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/protocol.py",
+      "current_sha256": "ae49cd6a78710a2903ff6abcce7c90b80249163041746a5cc375765580be0bc3",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/qwen35/__init__.py",
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/qwen35/adapter.py",
+      "current_sha256": "c083ade197dd879180199c3411f13d9b11f35a9d5507485fb8da7e87762ad26d",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "qwen3_5"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/qwen35/blocks.py",
+      "current_sha256": "1b6811c2ee456520ba614d1c0ac435ca68c857655b7a53b0b25ed9e7d0d54db4",
+      "origin_kind": "direct_alltheais_adaptation",
+      "selected_terms": "GPL-3.0-or-later",
+      "upstream": {
+        "project": "AllTheAIs",
+        "path": "streaming/functional_blocks.py",
+        "working_tree_sha256": "4f521f3032c70033ca99c1f2b66f784933e7b191035736bf6bbdb014a647e7a3"
+      },
+      "reference_families": [
+        "qwen3_5"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/qwen35_moe.py",
+      "current_sha256": "7d9bc97b276d1a97ae05c6f7957fe4811306c7b7578522fcc03ed62e27e1b4e6",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "Transformers qwen3_5_moe Apache-2.0"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/qwen3_moe.py",
+      "current_sha256": "64b06474648e73109f2ac4ca2092a29e17b07d4ec31464792a1ff800e1b5a9ba",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "qwen3_moe"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/registry.py",
+      "current_sha256": "67ad7d35ccb87e3669ec6fac5969d53c6601143f530387f2758c2068fa511e24",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/adapters/targets.py",
+      "current_sha256": "a1b5f51ffb8f20579ed57511adc4049f262eb47f63049f8bb0914a4a06b183a7",
+      "origin_kind": "direct_alltheais_adaptation",
+      "selected_terms": "GPL-3.0-or-later",
+      "upstream": {
+        "project": "AllTheAIs",
+        "path": "streaming/lora.py",
+        "working_tree_sha256": "b66affaf569aeac8a5e5da381e3e38866b511a643e0cba5acdf1e928ccef3a83"
+      }
+    },
+    {
+      "file": "src/ram_vram_finetune/buffers.py",
+      "current_sha256": "4d650acae2c2b4c88a3c5cca35f2bc3e2d72e57e3881b0945ac9bb5d7f842e3a",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/checkpoint_io/__init__.py",
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/checkpoint_io/state.py",
+      "current_sha256": "65ebee325b896f11b56417aa2e10b61311d0810b3190771befaba2e1d7a082b8",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/cli.py",
+      "current_sha256": "ea6db80293d84af2e56ddbb925af3652cc87b8af963158cbfb73a6063b6556bd",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/config.py",
+      "current_sha256": "1ef78a781e19da8c0c77a674c4e678ae1f10b9fbd9feada178696dfc10f99099",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/data/__init__.py",
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/data/chat.py",
+      "current_sha256": "5df777a4c38fb6c3cd85711fe3e9a197452ba2692bed89710ea868f76a2c5ea1",
+      "origin_kind": "direct_alltheais_adaptation",
+      "selected_terms": "GPL-3.0-or-later",
+      "upstream": {
+        "project": "AllTheAIs",
+        "path": "backend/train/data.py",
+        "working_tree_sha256": "5c13cf3ff51841ae795749774fa970b7c4864379906f548d71b16782d4015e4e"
+      }
+    },
+    {
+      "file": "src/ram_vram_finetune/deepseek_fixture.py",
+      "current_sha256": "272297b8b7e976bbaa870d5a6bd1ab59abe13826ca20072e448eccee238a56c6",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/finetune/__init__.py",
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/finetune/lora.py",
+      "current_sha256": "a3f40954370147305cec1921a26ea3eba10954c9008c1588387bd2fb644acead",
+      "origin_kind": "direct_alltheais_adaptation",
+      "selected_terms": "GPL-3.0-or-later",
+      "upstream": {
+        "project": "AllTheAIs",
+        "path": "streaming/lora.py",
+        "working_tree_sha256": "b66affaf569aeac8a5e5da381e3e38866b511a643e0cba5acdf1e928ccef3a83"
+      }
+    },
+    {
+      "file": "src/ram_vram_finetune/finetune/optimizer.py",
+      "current_sha256": "fa86da76c223817cc87b0941404063397fd736c554f1786f9128bba00061658f",
+      "origin_kind": "direct_alltheais_adaptation",
+      "selected_terms": "GPL-3.0-or-later",
+      "upstream": {
+        "project": "AllTheAIs",
+        "path": "streaming/optimizer.py",
+        "working_tree_sha256": "366013aaad6cf9d6ee047f19f70e8c67d82e9f2ab5d785c77267efa4ec34e35b"
+      }
+    },
+    {
+      "file": "src/ram_vram_finetune/fixture.py",
+      "current_sha256": "02d9da00670679f291efcd42677e2480cd0adce1cf59d67224fadee9fd5f152d",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/glm_fixture.py",
+      "current_sha256": "766d3176e24ca4521170e86f76da215737e89733c930e04dd1aa81f7da9176ff",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "Transformers glm4_moe_lite Apache-2.0"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/memory.py",
+      "current_sha256": "9eba757bb441e009d4e3d6371ec455e4045be3194059bf99f37a7bce720079ca",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/platform_support.py",
+      "current_sha256": "ea0bc6347ee31422559b43bf0c72eb521a1f4676c535b6885405d265f64dfa93",
+      "origin_kind": "project_local_portability_support",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/prefetch.py",
+      "current_sha256": "e6d1d68055077b7b22f831896b6823f784259a54020b3cb3ea25229f73a52232",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/quantization/__init__.py",
+      "current_sha256": "3cfa0e0898cc1095209873d48331816c11f7da5333963ffa08ac8c121ac46fce",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/quantization/codecs.py",
+      "current_sha256": "22d89a495b343b339bd05cfee98aeda1a3a6f56e0d7f75f0c5f52e04969a6280",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/quantization/storage.py",
+      "current_sha256": "5e2db7b6e19baa80fd94986b192b48026df053f71069832a298c574f1f19ed48",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/qwen35_moe_fixture.py",
+      "current_sha256": "b1d2750db686162f5e6edb000d882c8c599668ba08cf5b9d3863012e052ab74c",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "Transformers qwen3_5_moe Apache-2.0"
+      ]
+    },
+    {
+      "file": "src/ram_vram_finetune/qwen3_moe_fixture.py",
+      "current_sha256": "c8e198d2cb8c8044a46e6e879b50e8e0458d81bc39d822489a73651b2d4c1ed3",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/training/__init__.py",
+      "current_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/training/engine.py",
+      "current_sha256": "a628c9d30107e7589aa1168edd24608484248c1bc112cc2da4e0b25323afdd55",
+      "origin_kind": "ai_assisted_extraction_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "src/ram_vram_finetune/training/recompute.py",
+      "current_sha256": "bc38ab9666afd2ccf96e3cc12bc31c4aa5133f2cee80786892bb7918ebf9a7c4",
+      "origin_kind": "direct_alltheais_adaptation",
+      "selected_terms": "GPL-3.0-or-later",
+      "upstream": {
+        "project": "AllTheAIs",
+        "path": "streaming/autograd.py",
+        "working_tree_sha256": "e0fbc42c551ed8b7e4cabeb8023b4da198193b597b0b84505f0f6771329dc666"
+      }
+    },
+    {
+      "file": "tests/test_architecture_contracts.py",
+      "current_sha256": "6a5016ffc83df49a1ded4dedabba532d2742a345f2c248c1bada8e1f2bc6a504",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_batched_execution.py",
+      "current_sha256": "9ccfd7de07745c2b8d25d34bcce8e5495eb68ea0ee20d30523753426b8b1a422",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_cpu_environment.py",
+      "current_sha256": "65b5d96c7a0a1a9f4c34fdc2993d2b4cce169bd1d6789ced7bbdbe753f2e7725",
+      "origin_kind": "ai_assisted_open_source_preparation_tool_or_test",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_cpu_training.py",
+      "current_sha256": "157ad007939e78c4f73bdeb3a738661a0300ad45732ee2dc43ee4c9b5bb9de25",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_cpu_wheel_lock.py",
+      "current_sha256": "55e62b240d24c300f39b21b734d482335064a62490aa413aeb5c4fe492dbcfb9",
+      "origin_kind": "ai_assisted_open_source_preparation_tool_or_test",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_deb_builder.py",
+      "origin_kind": "project_release_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "current_sha256": "9c8cad542c2072c13158c290dc5189ba8c8926a7b2b4181c5071b037ccf9ec1e"
+    },
+    {
+      "file": "tests/test_deepseek.py",
+      "current_sha256": "030b77530ddc0344e6a065189c478e69ae3103d5c7d6badd659cb435e288cdab",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_dense_adapters.py",
+      "current_sha256": "e4e6ff2a04cf064027d9afd15f344499e5b6b26455cd393b0f546375280f91a9",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_dense_pinned.py",
+      "current_sha256": "a07a6777b39beca3357d533e6a2317ed8bac0c4b7bb18d05f7810912e54c7de6",
+      "origin_kind": "ai_assisted_maintenance_tests",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_glm4_moe_lite.py",
+      "current_sha256": "b0f23871f60206ff3b395a8bc249306baf52fccfc822e38b5353f1a59cdad0b4",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "Transformers glm4_moe_lite Apache-2.0"
+      ]
+    },
+    {
+      "file": "tests/test_gpt_oss.py",
+      "current_sha256": "e3e19c517d5b6a88cbd7449109bd1e08c5295c9887169c4b5754f4df34b8d2be",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "Transformers gpt_oss / MXFP4 Apache-2.0"
+      ]
+    },
+    {
+      "file": "tests/test_license_materials.py",
+      "current_sha256": "344e351bb7430797e3c4718266e6c52c12486d10378c77675980d48063178612",
+      "origin_kind": "new_ai_assisted_license_material_tooling",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_memory_finalize.py",
+      "current_sha256": "b6af35eb88fd3ff3183d5073cd9495030a4b843388f9746f4fba58b175b23541",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_platform_support.py",
+      "current_sha256": "3ce661ac239648570c6207801c71917644adf70e0ce5d4668f2e6a20e358aa88",
+      "origin_kind": "project_local_portability_support",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_portable_audit.py",
+      "current_sha256": "4aef971b67d8d7ce476b43e05a7d5e5c6fe648102d37ba6a1725644f98f4b84c",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_prefetch.py",
+      "current_sha256": "d01f789fc9119a9764b6ad13d99c47d8a76f41cf4efb341ddf1efaa4605b02ce",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_quantization.py",
+      "current_sha256": "59c4c294a5dae22a20c3e212d8620907f7f2f5aa759450de5fa3b8cae06c0504",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_qwen35_moe.py",
+      "current_sha256": "c6ed8498b2981187c4bed1d07eb38d8c00271ef1cf71d57af8dae882dc71847f",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later",
+      "reference_families": [
+        "Transformers qwen3_5_moe Apache-2.0"
+      ]
+    },
+    {
+      "file": "tests/test_qwen35_tied.py",
+      "current_sha256": "7b23858b0b931679b4858d1dda57931bb7b5d8dca21fb34b394fa3e29d0edd25",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_qwen3_adapter.py",
+      "current_sha256": "46380295612d78892a3c0fa692b620a6f82c866bb2c95ca420bb4fec398d3d5c",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_qwen3_moe.py",
+      "current_sha256": "0fb86289ef21c461ce7f0a4aa2367cda3f989f27425a649b4ff596c01c2f1b98",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_release_identity.py",
+      "current_sha256": "c7826d8cb8bb05730ee16ce28559bf6f280bc34ed49ddaa44c4aaff4895aefc8",
+      "origin_kind": "project_release_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_terminal_vjp.py",
+      "current_sha256": "278a9a06590217ee6833fc5e61f83394ff6bca9421ee0b77f9b0d7085a29702d",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/test_validation_chunks.py",
+      "current_sha256": "927f4df12f91e33fb6257a7e7fdde118c46181d1fdf7ef6e6680e0227020d790",
+      "origin_kind": "ai_assisted_maintenance_tests",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tests/typed_adapter_fixture.py",
+      "current_sha256": "edb81057a7bd1b123ad688dc2d92ff6daab7635ecf3c3dc24f5d14a628075f38",
+      "origin_kind": "ai_assisted_local_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tools/portable/build_deb.py",
+      "current_sha256": "cbc1f5d6a766423950d3ab0b300429b0349c2f93f9a6a95e7c9046946d0bab92",
+      "origin_kind": "project_release_integration",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tools/portable/check_candidate.py",
+      "current_sha256": "0290a2c3c1e036918ee5724293a0503129951f81b44fd26bfb5e2ba934fbb96b",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tools/portable/check_licenses.py",
+      "current_sha256": "3be1894edda570c83ff667b9b78a2c7ec323ac5da1a3a45bf283ad8ad6197b31",
+      "origin_kind": "new_ai_assisted_license_material_tooling",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tools/portable/ci_cpu.py",
+      "current_sha256": "e4c200e2698b672ec44542bec7e80509a80c617142fe8cf34397a7404494906d",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tools/portable/cpu_environment.py",
+      "current_sha256": "9fcd9f326e7121e93780e7b9a33d4e460be534bfe43a6ff3d71e231e4a757e1c",
+      "origin_kind": "ai_assisted_open_source_preparation_tool_or_test",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tools/portable/fetch_cpu_wheels.py",
+      "current_sha256": "a63bd2cb15773c9c38e33e073838cf9b351d582202d45fd6879286403aa994c0",
+      "origin_kind": "ai_assisted_open_source_preparation_tool_or_test",
+      "selected_terms": "GPL-3.0-or-later"
+    },
+    {
+      "file": "tools/portable/suite_audit.py",
+      "current_sha256": "e5c42d210e5a2b6adbc902466a859375e341ca5084039b43edb0b57e1719bfd6",
+      "origin_kind": "ai_assisted_local_test_or_tool",
+      "selected_terms": "GPL-3.0-or-later"
+    }
+  ]
+}

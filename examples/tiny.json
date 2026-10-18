@@ -1,0 +1,12 @@
+{
+  "model": "tiny-model",
+  "dataset": "tiny-model/chat.jsonl",
+  "output": "outputs/run",
+  "device": "cpu",
+  "steps": 2,
+  "accumulation": 2,
+  "rank": 2,
+  "alpha": 4.0,
+  "token_chunk": 8,
+  "seed": 42
+}

@@ -1,0 +1,33 @@
+name: Manual locked CPU candidate check
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      CUDA_VISIBLE_DEVICES: ''
+      HF_HUB_OFFLINE: '1'
+      TRANSFORMERS_OFFLINE: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14.4'
+      - name: Fetch and verify only the locked official CPU wheels
+        run: >-
+          python -I tools/portable/fetch_cpu_wheels.py fetch
+          --manifest requirements/cpu-linux-x86_64-cp314.manifest.json
+          --lock requirements/cpu-linux-x86_64-cp314.lock
+          --wheelhouse .ci-wheelhouse --receipt .ci-wheelhouse/download-ledger.json
+      - name: Install the hash-locked CPU closure into a clean venv
+        run: |
+          python -I -m venv .ci-venv
+          python -I tools/portable/fetch_cpu_wheels.py install --manifest requirements/cpu-linux-x86_64-cp314.manifest.json --lock requirements/cpu-linux-x86_64-cp314.lock --wheelhouse .ci-wheelhouse --python .ci-venv/bin/python --receipt .ci-wheelhouse/offline-install.json
+      - name: Run portable checks with verified CPU isolation
+        run: .ci-venv/bin/python tools/portable/ci_cpu.py --require-clean-cpu --output .ci-results/github

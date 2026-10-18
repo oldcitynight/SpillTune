@@ -1,0 +1,11 @@
+{
+  "model": "tiny-q6",
+  "dataset": "tiny-llama/tokens.jsonl",
+  "output": "outputs/quantized-llama",
+  "adapter": "llama",
+  "device": "cpu",
+  "steps": 2,
+  "accumulation": 2,
+  "quantization": "int6-sym-g128",
+  "quantized_compute": "bf16"
+}

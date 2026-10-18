@@ -1,0 +1,34 @@
+include README.md SOURCE_ATTRIBUTION.md THIRD_PARTY_NOTICES.md CONTRIBUTING.md CHANGELOG.md .gitignore pyproject.toml
+recursive-include src *.py
+recursive-include tests *.py
+recursive-include LICENSES *.txt
+recursive-include legal *.json
+recursive-include docs/public *.md
+recursive-include tools/portable *.py
+include examples/tiny.json examples/resume.json examples/llama.json examples/qwen2.json examples/deepseek-v3.json examples/quantized-llama.json
+recursive-include .github *.yml *.md
+include release-allowlist.json
+prune evidence
+prune runs
+prune outputs
+prune backups
+prune restore-check
+prune release-candidates
+prune .venv
+global-exclude __pycache__ *.py[cod] *.safetensors *.gguf *.pt *.pth *.bin *.log
+
+include tests/cpu-inventory.json
+
+include COPYING LICENSE.md NOTICE
+
+recursive-include requirements *.txt *.json *.lock
+
+prune .cpu-wheelhouse
+prune .ci-wheelhouse
+prune .venv-cpu
+prune .ci-venv
+prune .ci-results
+
+recursive-include launchers *.c
+
+include RELEASE.json

@@ -1,0 +1,21 @@
+{
+  "version": "0.0.1",
+  "name": "Fire up",
+  "display": "V0.0.1 Fire up",
+  "cli": "spilltune",
+  "delivery": "own source/wheel/Linux launcher/deb; external runtime",
+  "native_windows_msi": "UNVALIDATED",
+  "project": "SpillTune",
+  "distribution": "spilltune",
+  "repository": "oldcitynight/SpillTune",
+  "authors": [
+    {
+      "name": "ChatGPT-Codex",
+      "email": "no-reply@openai.com"
+    },
+    {
+      "name": "oldcitynight",
+      "email": "nightoldcity@gmail.com"
+    }
+  ]
+}

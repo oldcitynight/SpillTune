@@ -1,0 +1,433 @@
+{
+  "distribution": "transformers",
+  "version": "5.13.0",
+  "official_tag": "v5.13.0",
+  "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+  "references": [
+    {
+      "id": "transformers/integrations/mxfp4.py",
+      "family": "gpt_oss",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/integrations/mxfp4.py",
+      "observed_sha256": "c0889ac0b0a28b6b40ce7a6ecad6c491473626147c603348595181f0adc4ab4c",
+      "size_bytes": 27755,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The HuggingFace Team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/modeling_rope_utils.py",
+      "family": "shared_rope",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/modeling_rope_utils.py",
+      "observed_sha256": "9592ba129bf723ed3fa54afcc48ddd3d40d2dac2947ce5cc37803c496ca320e8",
+      "size_bytes": 58056,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2024 The HuggingFace Team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/deepseek_v3/configuration_deepseek_v3.py",
+      "family": "deepseek_v3",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/deepseek_v3/configuration_deepseek_v3.py",
+      "observed_sha256": "7413ff831481b48e0561e5b4cd0e3d96a6a913886026cac641ebb45ef328eefe",
+      "size_bytes": 4540,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 bzantium and the HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/deepseek_v3/modeling_deepseek_v3.py",
+      "family": "deepseek_v3",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/deepseek_v3/modeling_deepseek_v3.py",
+      "observed_sha256": "db49759b796e246021378da86a24ccc2515785c0f37c2b0bab9b1e9082d9d822",
+      "size_bytes": 31738,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [],
+      "apache_header_present": false
+    },
+    {
+      "id": "transformers/models/deepseek_v3/modular_deepseek_v3.py",
+      "family": "deepseek_v3",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/deepseek_v3/modular_deepseek_v3.py",
+      "observed_sha256": "bf547ef69b63bbead3b7858206cc555620dec438d2b99fb76cc6543221fdbc59",
+      "size_bytes": 12770,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [],
+      "apache_header_present": false
+    },
+    {
+      "id": "transformers/models/glm4_moe_lite/configuration_glm4_moe_lite.py",
+      "family": "glm4_moe_lite",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/glm4_moe_lite/configuration_glm4_moe_lite.py",
+      "observed_sha256": "d53b9efe528429fca4b9fa3512cf227a4c2f34adb42ea04f2f8270bb6ab5076e",
+      "size_bytes": 5081,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 the HuggingFace Team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/glm4_moe_lite/modeling_glm4_moe_lite.py",
+      "family": "glm4_moe_lite",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/glm4_moe_lite/modeling_glm4_moe_lite.py",
+      "observed_sha256": "bb3ee7ca976376c82d22f6a91d4d8260530265f5bfc5454068b802a80661f818",
+      "size_bytes": 32169,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 the HuggingFace Team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/glm4_moe_lite/modular_glm4_moe_lite.py",
+      "family": "glm4_moe_lite",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/glm4_moe_lite/modular_glm4_moe_lite.py",
+      "observed_sha256": "765f53551ea6554f956d1f36ca8f24ffc26390da11bec02f5e147f54edec1f51",
+      "size_bytes": 5943,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 the HuggingFace Team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/gpt_oss/configuration_gpt_oss.py",
+      "family": "gpt_oss",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/gpt_oss/configuration_gpt_oss.py",
+      "observed_sha256": "984ee4848d53a278038533c4e46d438527284983b49359b651f732820f842d78",
+      "size_bytes": 3336,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The HuggingFace Team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/gpt_oss/modeling_gpt_oss.py",
+      "family": "gpt_oss",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/gpt_oss/modeling_gpt_oss.py",
+      "observed_sha256": "6748d3ee97cf428cc370d7a4f02e0dc87d2847a3ae063b556c385999e96808ce",
+      "size_bytes": 30920,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The HuggingFace Team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/gpt_oss/modular_gpt_oss.py",
+      "family": "gpt_oss",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/gpt_oss/modular_gpt_oss.py",
+      "observed_sha256": "dfa9eb2ce5d066eac17373bbd2f84b49bf44e6c6460497b2d50073eebb3281f2",
+      "size_bytes": 17480,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The HuggingFace Team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/llama/configuration_llama.py",
+      "family": "llama",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/llama/configuration_llama.py",
+      "observed_sha256": "5e2e803d15956cdc402ab1c4a5151a899bd39ddfbecbb81181733657817aaeda",
+      "size_bytes": 3896,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2022 EleutherAI and the HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/llama/modeling_llama.py",
+      "family": "llama",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/llama/modeling_llama.py",
+      "observed_sha256": "46d313ec0f1116bcc1bb7f2379467ab249c140415c64fb758e2d5915cd8b89a5",
+      "size_bytes": 21153,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2022 EleutherAI and the HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen2/configuration_qwen2.py",
+      "family": "qwen2",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen2/configuration_qwen2.py",
+      "observed_sha256": "281986fef33b2c5226389a479113eb963c8336467e76e1b8d49fd3d18ee4a882",
+      "size_bytes": 3435,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2024 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen2/modeling_qwen2.py",
+      "family": "qwen2",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen2/modeling_qwen2.py",
+      "observed_sha256": "99fa98c5676604cf6ef505892b70fda5c1c4cd835971459f38d61090cccab1e4",
+      "size_bytes": 21922,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [],
+      "apache_header_present": false
+    },
+    {
+      "id": "transformers/models/qwen2/modular_qwen2.py",
+      "family": "qwen2",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen2/modular_qwen2.py",
+      "observed_sha256": "474885009726189b1a4899e271c6d11a93a0f53c675f08bcef8670297e163f71",
+      "size_bytes": 7572,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [],
+      "apache_header_present": false
+    },
+    {
+      "id": "transformers/models/qwen2/tokenization_qwen2.py",
+      "family": "qwen2",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen2/tokenization_qwen2.py",
+      "observed_sha256": "fac4e6576bfe2369731be147a4e530f262bdf32f2ac50436f96f0d8bdd2fc628",
+      "size_bytes": 3323,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2024 The Qwen team, Alibaba Group and The HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen3/configuration_qwen3.py",
+      "family": "qwen3",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen3/configuration_qwen3.py",
+      "observed_sha256": "49d9ccd0f29ccd977b93dba2004f84b867891b3d0509b71fd8ba3ed01054e64d",
+      "size_bytes": 3624,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2024 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen3/modeling_qwen3.py",
+      "family": "qwen3",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen3/modeling_qwen3.py",
+      "observed_sha256": "fbdcfeeb1b54135ca67ba7df924da92f4b264e1252b517eea2de989289ebaeab",
+      "size_bytes": 23353,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen3/modular_qwen3.py",
+      "family": "qwen3",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen3/modular_qwen3.py",
+      "observed_sha256": "411f4357809f042214fdc480e848d9a3fdc11f62a4fd57c683a0d939eb60551e",
+      "size_bytes": 5711,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen3_5/configuration_qwen3_5.py",
+      "family": "qwen3_5",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen3_5/configuration_qwen3_5.py",
+      "observed_sha256": "3c01b3cdcff8d77cbafac9841bc48c41e5a5b38637231f1bde3d843cd198dbaf",
+      "size_bytes": 8266,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen3_5/modeling_qwen3_5.py",
+      "family": "qwen3_5",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen3_5/modeling_qwen3_5.py",
+      "observed_sha256": "cf085792cb59e5bdf9b88a3d20bd353892289d054662a9c2b662221b97caefba",
+      "size_bytes": 93133,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen3_5/modular_qwen3_5.py",
+      "family": "qwen3_5",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen3_5/modular_qwen3_5.py",
+      "observed_sha256": "1bc612fd0fab11dc9696b615b3d5563873d8f4981fa76c0aad2f454be59a159f",
+      "size_bytes": 29693,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen3_5_moe/__init__.py",
+      "family": "qwen3_5_moe",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen3_5_moe/__init__.py",
+      "observed_sha256": "bbad751c2169cb9cc52cd13d53401ed0171a4f980e8dad48c3f6fb339ecab30d",
+      "size_bytes": 1003,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The HuggingFace Team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen3_5_moe/configuration_qwen3_5_moe.py",
+      "family": "qwen3_5_moe",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen3_5_moe/configuration_qwen3_5_moe.py",
+      "observed_sha256": "5053663170053d27610b88ef6a0e06952bb083b572efbb795685f7553521d414",
+      "size_bytes": 8976,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen3_5_moe/modeling_qwen3_5_moe.py",
+      "family": "qwen3_5_moe",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen3_5_moe/modeling_qwen3_5_moe.py",
+      "observed_sha256": "5ff72ce593c1c7bdec720ed37e1a17793a5ba72f4b0318e9a377a7eb708ebad8",
+      "size_bytes": 101986,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen3_5_moe/modular_qwen3_5_moe.py",
+      "family": "qwen3_5_moe",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen3_5_moe/modular_qwen3_5_moe.py",
+      "observed_sha256": "e4eb80c311d7ab7377696da819561664549982b1479bdb02bf0a8ad3df1a9606",
+      "size_bytes": 12091,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen3_moe/configuration_qwen3_moe.py",
+      "family": "qwen3_moe",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen3_moe/configuration_qwen3_moe.py",
+      "observed_sha256": "d161e9dd37b1b208ddb400fa649e2bb410562dc6a459947d77723b5225a808af",
+      "size_bytes": 4693,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2024 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen3_moe/modeling_qwen3_moe.py",
+      "family": "qwen3_moe",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen3_moe/modeling_qwen3_moe.py",
+      "observed_sha256": "f07ab1b3a17e27612006a447812b83667af7ab3d527afe3ebbdf89dc5dac8a90",
+      "size_bytes": 31897,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    },
+    {
+      "id": "transformers/models/qwen3_moe/modular_qwen3_moe.py",
+      "family": "qwen3_moe",
+      "version": "5.13.0",
+      "official_commit": "6af945f436d85f2b0c5dff9b14feccd27b1d470b",
+      "official_source_url": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/src/transformers/models/qwen3_moe/modular_qwen3_moe.py",
+      "observed_sha256": "a2614e5fa0ead875e105a7b08cc6bd3d6e552cbc8cf3a506bd1fdbdc2517fb6e",
+      "size_bytes": 7257,
+      "remote_matches_installed_record": true,
+      "copyright_lines": [
+        "# Copyright 2025 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved."
+      ],
+      "apache_header_present": true
+    }
+  ],
+  "license": {
+    "identifier": "Apache-2.0",
+    "retained_text": "LICENSES/transformers-APACHE-2.0.txt",
+    "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+    "official_source": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/LICENSE",
+    "matches_official": true
+  },
+  "upstream_NOTICE": {
+    "exact_root_path": "https://raw.githubusercontent.com/huggingface/transformers/6af945f436d85f2b0c5dff9b14feccd27b1d470b/NOTICE",
+    "observed_status": 404,
+    "limit": "Only the root NOTICE URL and the earlier installed distribution scope were inspected; this is not a claim no NOTICE exists elsewhere."
+  },
+  "format": "rvft.public-upstream-references.v1"
+}

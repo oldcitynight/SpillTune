@@ -1,0 +1,189 @@
+# Retained upstream reference attribution
+
+Thirty exact Transformers5.13.0 reference files matched official commit `6af945f436d85f2b0c5dff9b14feccd27b1d470b`. This updates the earlier installed-only observations. These statements identify upstream reference files, not ownership of the extracted project and not a finding that every reference was copied. The complete Apache-2.0 text remains in `LICENSES/transformers-APACHE-2.0.txt`.
+
+The root upstream `NOTICE` URL at that commit returned404; the earlier installed-package scope found no NOTICE-named file. Neither observation establishes repository-wide absence. Exact source IDs, hashes and scope are in `legal/upstream-references.json`.
+
+## transformers/integrations/mxfp4.py
+
+SHA256 `c0889ac0b0a28b6b40ce7a6ecad6c491473626147c603348595181f0adc4ab4c`.
+
+Copyright 2025 The HuggingFace Team. All rights reserved.
+
+## transformers/modeling_rope_utils.py
+
+SHA256 `9592ba129bf723ed3fa54afcc48ddd3d40d2dac2947ce5cc37803c496ca320e8`.
+
+Copyright 2024 The HuggingFace Team. All rights reserved.
+
+## transformers/models/deepseek_v3/configuration_deepseek_v3.py
+
+SHA256 `7413ff831481b48e0561e5b4cd0e3d96a6a913886026cac641ebb45ef328eefe`.
+
+Copyright 2025 bzantium and the HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/deepseek_v3/modeling_deepseek_v3.py
+
+SHA256 `db49759b796e246021378da86a24ccc2515785c0f37c2b0bab9b1e9082d9d822`.
+
+No copyright line was observed in this inspected file header; none is invented.
+
+## transformers/models/deepseek_v3/modular_deepseek_v3.py
+
+SHA256 `bf547ef69b63bbead3b7858206cc555620dec438d2b99fb76cc6543221fdbc59`.
+
+No copyright line was observed in this inspected file header; none is invented.
+
+## transformers/models/glm4_moe_lite/configuration_glm4_moe_lite.py
+
+SHA256 `d53b9efe528429fca4b9fa3512cf227a4c2f34adb42ea04f2f8270bb6ab5076e`.
+
+Copyright 2025 the HuggingFace Team. All rights reserved.
+
+## transformers/models/glm4_moe_lite/modeling_glm4_moe_lite.py
+
+SHA256 `bb3ee7ca976376c82d22f6a91d4d8260530265f5bfc5454068b802a80661f818`.
+
+Copyright 2025 the HuggingFace Team. All rights reserved.
+
+## transformers/models/glm4_moe_lite/modular_glm4_moe_lite.py
+
+SHA256 `765f53551ea6554f956d1f36ca8f24ffc26390da11bec02f5e147f54edec1f51`.
+
+Copyright 2025 the HuggingFace Team. All rights reserved.
+
+## transformers/models/gpt_oss/configuration_gpt_oss.py
+
+SHA256 `984ee4848d53a278038533c4e46d438527284983b49359b651f732820f842d78`.
+
+Copyright 2025 The HuggingFace Team. All rights reserved.
+
+## transformers/models/gpt_oss/modeling_gpt_oss.py
+
+SHA256 `6748d3ee97cf428cc370d7a4f02e0dc87d2847a3ae063b556c385999e96808ce`.
+
+Copyright 2025 The HuggingFace Team. All rights reserved.
+
+## transformers/models/gpt_oss/modular_gpt_oss.py
+
+SHA256 `dfa9eb2ce5d066eac17373bbd2f84b49bf44e6c6460497b2d50073eebb3281f2`.
+
+Copyright 2025 The HuggingFace Team. All rights reserved.
+
+## transformers/models/llama/configuration_llama.py
+
+SHA256 `5e2e803d15956cdc402ab1c4a5151a899bd39ddfbecbb81181733657817aaeda`.
+
+Copyright 2022 EleutherAI and the HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/llama/modeling_llama.py
+
+SHA256 `46d313ec0f1116bcc1bb7f2379467ab249c140415c64fb758e2d5915cd8b89a5`.
+
+Copyright 2022 EleutherAI and the HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen2/configuration_qwen2.py
+
+SHA256 `281986fef33b2c5226389a479113eb963c8336467e76e1b8d49fd3d18ee4a882`.
+
+Copyright 2024 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen2/modeling_qwen2.py
+
+SHA256 `99fa98c5676604cf6ef505892b70fda5c1c4cd835971459f38d61090cccab1e4`.
+
+No copyright line was observed in this inspected file header; none is invented.
+
+## transformers/models/qwen2/modular_qwen2.py
+
+SHA256 `474885009726189b1a4899e271c6d11a93a0f53c675f08bcef8670297e163f71`.
+
+No copyright line was observed in this inspected file header; none is invented.
+
+## transformers/models/qwen2/tokenization_qwen2.py
+
+SHA256 `fac4e6576bfe2369731be147a4e530f262bdf32f2ac50436f96f0d8bdd2fc628`.
+
+Copyright 2024 The Qwen team, Alibaba Group and The HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen3/configuration_qwen3.py
+
+SHA256 `49d9ccd0f29ccd977b93dba2004f84b867891b3d0509b71fd8ba3ed01054e64d`.
+
+Copyright 2024 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen3/modeling_qwen3.py
+
+SHA256 `fbdcfeeb1b54135ca67ba7df924da92f4b264e1252b517eea2de989289ebaeab`.
+
+Copyright 2025 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen3/modular_qwen3.py
+
+SHA256 `411f4357809f042214fdc480e848d9a3fdc11f62a4fd57c683a0d939eb60551e`.
+
+Copyright 2025 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen3_5/configuration_qwen3_5.py
+
+SHA256 `3c01b3cdcff8d77cbafac9841bc48c41e5a5b38637231f1bde3d843cd198dbaf`.
+
+Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen3_5/modeling_qwen3_5.py
+
+SHA256 `cf085792cb59e5bdf9b88a3d20bd353892289d054662a9c2b662221b97caefba`.
+
+Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen3_5/modular_qwen3_5.py
+
+SHA256 `1bc612fd0fab11dc9696b615b3d5563873d8f4981fa76c0aad2f454be59a159f`.
+
+Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen3_5_moe/__init__.py
+
+SHA256 `bbad751c2169cb9cc52cd13d53401ed0171a4f980e8dad48c3f6fb339ecab30d`.
+
+Copyright 2025 The HuggingFace Team. All rights reserved.
+
+## transformers/models/qwen3_5_moe/configuration_qwen3_5_moe.py
+
+SHA256 `5053663170053d27610b88ef6a0e06952bb083b572efbb795685f7553521d414`.
+
+Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen3_5_moe/modeling_qwen3_5_moe.py
+
+SHA256 `5ff72ce593c1c7bdec720ed37e1a17793a5ba72f4b0318e9a377a7eb708ebad8`.
+
+Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen3_5_moe/modular_qwen3_5_moe.py
+
+SHA256 `e4eb80c311d7ab7377696da819561664549982b1479bdb02bf0a8ad3df1a9606`.
+
+Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen3_moe/configuration_qwen3_moe.py
+
+SHA256 `d161e9dd37b1b208ddb400fa649e2bb410562dc6a459947d77723b5225a808af`.
+
+Copyright 2024 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen3_moe/modeling_qwen3_moe.py
+
+SHA256 `f07ab1b3a17e27612006a447812b83667af7ab3d527afe3ebbdf89dc5dac8a90`.
+
+Copyright 2025 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved.
+
+## transformers/models/qwen3_moe/modular_qwen3_moe.py
+
+SHA256 `a2614e5fa0ead875e105a7b08cc6bd3d6e552cbc8cf3a506bd1fdbdc2517fb6e`.
+
+Copyright 2025 The Qwen team, Alibaba Group and the HuggingFace Inc. team. All rights reserved.
+
+AllTheAIs adaptation headers remain in the six mapped targets. Existing project GPL selection and unmodified GNU COPYING remain separate from upstream attribution.
+
+These retained reference statements are not30 established mandatory omissions. If actual copied/adapted Apache material is identified, retain the applicable source notices and check prominent change notices in modified files under Apache2.0 section4; this global NOTICE does not substitute for that file-level check.

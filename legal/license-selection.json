@@ -1,0 +1,10 @@
+{
+  "format": "rvft.public-license-scope.v1",
+  "selected_license": "GPL-3.0-or-later",
+  "scope_document": "LICENSE.md",
+  "additional_link_exception": false,
+  "asset_scope": {
+    "automatic_model_data_lora_license": false
+  },
+  "delivery": "own source and own launcher only; external runtimes/assets retain their actual terms"
+}

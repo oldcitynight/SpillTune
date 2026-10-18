@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spilltune"
+version = "0.0.1"
+description = "SpillTune: RAM-buffered layer-streaming LoRA fine-tuning"
+authors = [{name = "ChatGPT-Codex", email = "no-reply@openai.com"}, {name = "oldcitynight", email = "nightoldcity@gmail.com"}]
+maintainers = [{name = "oldcitynight", email = "nightoldcity@gmail.com"}]
+readme = "README.md"
+license-files = ["COPYING", "LICENSE.md", "NOTICE", "SOURCE_ATTRIBUTION.md", "THIRD_PARTY_NOTICES.md", "LICENSES/*.txt", "legal/*.json"]
+requires-python = ">=3.11"
+dependencies = ["torch>=2.6", "safetensors>=0.5"]
+
+[project.optional-dependencies]
+qwen35 = ["transformers==5.13.0"]
+models = ["transformers==5.13.0"]
+test = ["pytest>=8"]
+
+[project.scripts]
+spilltune = "ram_vram_finetune.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.rvft.licensing]
+selected-license = "GPL-3.0-or-later"
+distribution-scope = "own-source-and-launcher-external-runtime"
+scope-document = "LICENSE.md"
+file-review = "legal/source-provenance.json"
+additional-link-exception = false
