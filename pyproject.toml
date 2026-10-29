@@ -16,6 +16,7 @@ dependencies = ["torch>=2.6", "safetensors>=0.5"]
 [project.optional-dependencies]
 qwen35 = ["transformers==5.13.0"]
 models = ["transformers==5.13.0"]
+nf4 = ["bitsandbytes==0.50.2", "transformers==5.13.0"]
 test = ["pytest>=8"]
 
 [project.scripts]
