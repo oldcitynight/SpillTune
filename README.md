@@ -27,6 +27,18 @@ Default transfers are synchronous. Optional CUDA raw-weight batching, one-layer 
 
 Linux is the current validation platform. Native Windows/MSI is unvalidated. The complete CPU suite and [repeatable checks](docs/public/testing.md) are included; execution scope must be taken from the corresponding validation receipt. No hosted CI result or broad model-quality result is implied by this source release.
 
+## R112 Q4 benchmark
+
+The public [SpillTune-Benchmark R112 report](https://github.com/oldcitynight/SpillTune-Benchmark/blob/main/reports/R112_REPORT.md) includes the sanitized run records, source slice, protocol, checksums and reproducible summary.
+
+| Measure | `spilltune_streaming` | `independent_native_resident` |
+| --- | ---: | ---: |
+| Sampled whole-device SMI peak | 2.03 GiB | 3.67 GiB |
+| Training time, including checkpoint saves | 76.27 min | 60.98 min |
+| Paired evaluation outputs and 500-step loss sequence | All 500 outputs and loss values match exactly | Same paired result |
+
+In this single local run, streaming used **44.7% less sampled whole-device SMI peak** and took **25.1% longer**; the measured times remained in the same order of magnitude. Text, token IDs and stop reasons matched for all 500 paired outputs. Stored judgment scores differed by at most 0.6 percentage points across channels despite identical outputs. The comparator was native NF4 resident on CUDA with activation checkpointing; this was **not** a GPU-offload or CPU comparison. SMI is a sampled whole-device peak, not process-exclusive allocated memory. These observations do not establish statistical equivalence, universal quality preservation or performance across hardware.
+
 ## License and contribution
 
 Project terms remain **GPL-3.0-or-later** as scoped in [LICENSE.md](LICENSE.md), with unchanged [COPYING](COPYING). Retained [NOTICE](NOTICE), [source attribution](SOURCE_ATTRIBUTION.md) and [third-party notices](THIRD_PARTY_NOTICES.md) accompany the source. No additional linking exception is granted. External runtimes, models, data and outputs retain their applicable terms. See [contributing](CONTRIBUTING.md) and [release](docs/public/release.md).
